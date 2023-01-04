@@ -23,7 +23,7 @@ class Logger {
     constructor() {
         this.#chatangoUser = Utilities.GetCookie(CHATANGO_COOKIE_ID) ?? "anon";
 
-        LogUser();
+        this.LogUser();
     }
 
     
